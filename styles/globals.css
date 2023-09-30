@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+.backTest{
+  background: url(../public/backTest.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.searchImg{
+  background-image: url(../public/searchImg.jpg);
+  background-position: center;
+  background-size: cover;
+}
